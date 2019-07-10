@@ -29,4 +29,4 @@ def renderASS(filename,starttime,res):
         print(','.join(dialogList),file=file)
 
 if __name__=="__main__":
-    renderASS('test.ass',1562594953,doFilter(open("test.txt",encoding='utf-8'),r'(?<=[“【]).*(?=[】”])'))
+    renderASS('test.ass',1562763637-32-8,doFilter(open("test.txt",encoding='utf-8'),r'(?<=[“【]).*(?=[】”])'))
